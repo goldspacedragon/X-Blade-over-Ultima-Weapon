@@ -1,0 +1,9 @@
+- id: 0x3E4E
+  en: X-blade
+- id: 0x3E4F
+  en: >-
+   The key to Kingdom Hearts. Decreases MP 
+
+   Charge time by {:color #F0F00080}75%{:reset} once 
+
+   all MP has been consumed.
