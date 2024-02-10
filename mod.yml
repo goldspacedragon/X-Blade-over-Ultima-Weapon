@@ -1,5 +1,6 @@
 title: X-Blade over Ultima Weapon. 
-description: Replaces Ultima Weapon with the key to Kingdom Hearts, the X-blade. Credit goes to Tomkl1004 for the model. 
+description: Replaces Ultima Weapon with the key to Kingdom Hearts, the X-blade. Credit goes to Tomkl1004 for the model, Modelers Resource for the Halloween Town alt, and to GuidingHeart and Sabrina for help getting this across the finish line.
+
 assets:
 - name: msg/us/sys.bar
   method: binarc
@@ -17,19 +18,19 @@ assets:
 - name: obj/W_EX010_N0_NM.mdlx
   method: copy
   source:
-  - name: obj/W_EX010_N0.mdlx
+  - name: obj/W_EX010_N0_NM.mdlx
 - name: obj/W_EX010_N0_TR.mdlx
   method: copy
   source:
-   - name: obj/W_EX010_N0.mdlx
+   - name: obj/W_EX010_N0_TR.mdlx
 - name: obj/W_EX010_N0_WI.mdlx
   method: copy
   source:
    - name: obj/W_EX010_N0.mdlx
 
-#Itempic
-- name: itempic/item-064.imd #UW
-  method: imd
-  source:
-  - name: itempic/item-064-0.png
 
+#Itempic
+- name: remastered/itempic/item-064.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-064.imd/-0.dds
